@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho da faculdade</title>
+    <link rel="stylesheet" href="stayle.css" />
+  </head>
+  <body>
+    <table>
+      <td id="PrimeiroP">Arthur Vitor Machado Bragança</td>
+    </table>
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+
+        <div class="slide first">
+          <img src="Arthur1.jpeg" alt="Arthur foto 1" />
+        </div>
+
+        <div class="slide">
+          <img src="Arthur2.jpeg" alt="Arthur foto 2" />
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+        </div>
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+      </div>
+    </div>
+    <table>
+      <td id="Paragafosec">Sobre minha formação</td>
+
+      <th>Faculdade: Una Cristiano machado</th>
+      <th>
+        Estou fazendo: Analise e desenvolvimento de sistemas estou no terceiro
+        periodo RA: 324143965
+      </th>
+    </table>
+    <div class="container">
+      <table>
+          <thead>
+              <tr id="Paragafosec">
+<td>UCS cursadas</td>
+</tr>
+          </thead>
+          
+          <div class="uc-table-container">
+                   <tbody id="listaUcs"> <tr>
+                     <td>Modelagem de software</td>
+                     <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
+                      <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
+               </td>
+              </tr>
+             <tr>
+               <td>Ambientes computacionais e conectividade</td>
+               <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
+                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Usabilidade, desenvolvimento web, mobile e jogos</td>
+              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
+                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Programação de soluções computacionais</td>
+              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
+                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Sistemas computacionais e segurança</td>
+              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
+                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Vida & Carreira</td>
+              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
+                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Sistemas distribuídos e mobile</td>
+              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
+                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button id="addUcBtn">Adicionar Nova UC</button>
+   </div>
+    <table>
+      <tr id="Paragafosec">
+        <td>Sobre mim</td>
+      </tr>
+
+      <tr>
+        <td>Gmail: Arthur Vitor Machado Bragança</td>
+      </tr>
+
+      <tr>
+        <td inert="Paragafo">
+          Sobre o meu proficional: Sou uma pessoa esforçada e sempre corri atras
+          de alguma coisa para não ficar parado, nunca tive ecperiencia na area
+          de ti ou de desenvolvimento, apenas em empregos mais comuns como
+          supermecado e produção em empresas.
+        </td>
+      </tr>
+
+      <tr id="Paragafo">
+        <td>
+          Meu eu pessoal: Gosto de jogos no geral, conversar e sair pra lugares
+          diferentes, gosto de ler mangas e de jogar rpg de mesa.
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr id="Paragafosec">
+        <td>Mais sobre mim</td>
+      </tr>
+      <tr id="Paragafo">
+        <td>
+          Se voce se sentiu interessado olhe o meu
+          <a
+            href=" https://www.linkedin.com/in/arthur-vitor-785562232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            >linkedin</a
+          >
+        </td>
+      </tr>
+    </table>
+   <label id="Paragafosec" for="gmail">Digite seu Gmail:</label><br>
+  <input type="text" id="gmail" onblur="validarGmail()">
+  <div id="mensagem" class="mensagem"></div>
+     <div class="container">
+        <h1>Validar CPF</h1>
+        <div class="input-group">
+          <label for="cpfInput">Digite seu CPF:</label>
+          <input type="text" id="cpfInput" placeholder="000.000.000-00" maxlength="14">
+        </div>
+        <p id="message"></p>
+      </table>  
+    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil - Notas Pessoais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h2> Anotações</h2>
+  <div class="container">
+      <div class="tab-container">
+          <div id="info" class="tab-content active">
+              <ul id="profile-details">
+          <div id="notes" class="tab-content">
+              <textarea id="personalNotes" placeholder="digite anotações aqui..."></textarea>
+              <p class="save-status" id="saveStatus"></p>
+          </div>
+       </div>
+  </div>
+<script src="java.js"></script>
+
+  </body>
